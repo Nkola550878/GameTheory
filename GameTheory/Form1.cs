@@ -16,5 +16,11 @@ namespace GameTheory
         {
             InitializeComponent();
         }
+
+    }
+    public enum Potez
+    {
+        Crveno,
+        Zeleno
     }
 }
