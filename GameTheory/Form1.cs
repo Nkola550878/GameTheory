@@ -57,6 +57,8 @@ namespace GameTheory
                 poeni1 += 1;
                 poeni2 += 1;
             }
+            txtIgrac1.Text = poeni1.ToString();
+            txtIgrac2.Text = poeni2.ToString();
         }
     }
     public enum Potez
