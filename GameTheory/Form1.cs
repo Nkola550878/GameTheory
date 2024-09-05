@@ -12,10 +12,19 @@ namespace GameTheory
 {
     public partial class Form1 : Form
     {
+        int brojIteracija = 100;
         public Form1()
         {
             InitializeComponent();
+            
+
+            for (int i = 0; i < brojIteracija; i++) 
+            {
+                igrac1.Play();
+                igrac2.Play();
+            }
         }
+        
 
     }
     public enum Potez
