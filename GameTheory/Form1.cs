@@ -17,6 +17,8 @@ namespace GameTheory
         {
             InitializeComponent();
             
+            Zoran igrac1 = new Zoran();
+            Zoran igrac2 = new Zoran();
 
             for (int i = 0; i < brojIteracija; i++) 
             {

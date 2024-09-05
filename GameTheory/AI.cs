@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameTheory
 {
-    internal interface AI
+    public interface AI
     {
         void GetLastPlay(Potez p);
 
