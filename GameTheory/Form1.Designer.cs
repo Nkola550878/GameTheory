@@ -40,9 +40,9 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Igrac1,
             this.Igrac2});
-            this.dataGridView1.Location = new System.Drawing.Point(282, 188);
+            this.dataGridView1.Location = new System.Drawing.Point(276, 21);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(246, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(246, 388);
             this.dataGridView1.TabIndex = 0;
             // 
             // Igrac1

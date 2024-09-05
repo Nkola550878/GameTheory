@@ -17,7 +17,7 @@ namespace GameTheory
 
         public Potez Play()
         {
-            return random.Next(0, 2) == 0 ? Potez.Zeleno : Potez.Crveno;
+            return random.Next(0, 100) % 2 == 0 ? Potez.Zeleno : Potez.Crveno;
         }
     }
 }
